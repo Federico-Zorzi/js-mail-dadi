@@ -26,6 +26,7 @@ while (!isUserEmailValid) {
 // ! PRIMA SOLUZIONE
 if (isUserEmailValid) {
   let isEmailInsideList = emailList.includes(userEmail);
+
   if (isEmailInsideList) {
     console.log(`L'email ${userEmail} risulta nella lista`);
   } else {
