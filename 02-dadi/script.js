@@ -15,6 +15,8 @@ console.log("Il numero del giocatore e':", userNumber);
 
 if (computerNumber > userNumber) {
   console.log("SCONFITTA! Il computer ha vinto");
-} else {
+} else if (computerNumber < userNumber) {
   console.log("VITTORIA! Il giocatore ha vinto");
+} else {
+  console.log("PAREGGIO! nessuno ha vinto");
 }
